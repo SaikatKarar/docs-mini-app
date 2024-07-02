@@ -1,10 +1,13 @@
 import React from 'react'
+import Background from './components/Background'
+import Foreground from './components/Foreground'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='relative w-full h-screen bg-zinc-800'>
+      <Background />
+      <Foreground />
+    </div>
   )
 }
 
